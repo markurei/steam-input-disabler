@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Install SteamInputDisabler
+Exec=curl https://raw.githubusercontent.com/markurei/steam-input-disabler/main/sid_installer.sh | bash -s --
+Icon=steamdeck-gaming-return
+Terminal=true
+Type=Application
+StartupNotify=false
