@@ -10,6 +10,10 @@ The immediate workaround for this is to map mouse and keyboard keys to the contr
 
 Disabling the Steam input for that specific game fixes the issue. While it can be done manually, this application handles it automatically. This application disables or enables the Steam input setting from the Steam config itself fixing the controller and in-game controller prompts/display issues for non-Steam games.
 
+<h1 align="center">
+	<img src="https://raw.githubusercontent.com/markurei/steam-input-disabler/main/images/screenshot.png"  alt="Screenshot"  width="450px"></a>
+</h1>
+
 > [!NOTE]
 > Steam games does not have this issue since the user can disable Steam Input from the Steam UI directly.
 > Non-Steam games does not show this option in the Steam UI for Steamdeck.
@@ -19,8 +23,6 @@ Disabling the Steam input for that specific game fixes the issue. While it can b
 > This application was tested only on Steamdeck running SteamOS.
 > It may or may NOT work on other Linux distros.
 > Does not work on Windows.
-
-  
 
 ## Getting Started
 
@@ -49,10 +51,10 @@ After installation is completed, a desktop shortcut named `Steam Input Disabler`
 2. Double-click on the shortcut to run the app.
 3. Set the filter dropdown button to either Lutris (<em>default</em>), HeroicLauncher, or All Non-Steam.
 4. Click the toggle button to set the Steam input per game.
-<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 576 512"  width="50px"  height="30px"  fill="#3d85c6"  ><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path  d="M192 64C86 64 0 150 0 256S86 448 192 448l192 0c106 0 192-86 192-192s-86-192-192-192L192 64zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"/></svg> = Enabled
-<svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 576 512"  width="50px"  height="30px"  fill="#808080"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path  d="M384 128c70.7 0 128 57.3 128 128s-57.3 128-128 128l-192 0c-70.7 0-128-57.3-128-128s57.3-128 128-128l192 0zM576 256c0-106-86-192-192-192L192 64C86 64 0 150 0 256S86 448 192 448l192 0c106 0 192-86 192-192zM192 352a96 96 0 1 0 0-192 96 96 0 1 0 0 192z"/></svg> = Disabled
-5. Click save after setting the values and close the application.
-6. Start Steam or go back to Game Mode and run the game to check the controls.
+<br><img src="https://raw.githubusercontent.com/markurei/steam-input-disabler/main/images/enabled-toggle.png"  alt="Download"  width="46px"> = Enabled </a>
+<br><img src="https://raw.githubusercontent.com/markurei/steam-input-disabler/main/images/disabled-toggle.png"  alt="Download"  width="46px"> = Disabled </a>
+6. Click save after setting the values and close the application.
+7. Start Steam or go back to Game Mode and run the game to check the controls.
 
 
 ### Uninstallation
@@ -110,7 +112,7 @@ This project is licensed under the [MIT License](https://github.com/markurei/ste
 
 ## Acknowledgments
 
-This is a very basic Python applicationThis project is made possible by these awesome repos
+This is a very basic Python application and is made possible by these awesome repos
 
 * [pyinstaller](https://github.com/pyinstaller/pyinstaller)
 * [customtkinter](https://github.com/TomSchimansky/CustomTkinter)
