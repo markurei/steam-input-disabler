@@ -95,7 +95,6 @@ Contributors and contact info
 👤 **markurei**
 
 * Github: [@markurei](https://github.com/markurei)
-* Youtube: [@deckoftrades](https://www.youtube.com/@deckoftrades)
 * Email: deckofalltrades@gmail.com
 
 ## Version History
